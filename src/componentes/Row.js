@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 import { getMovies } from '../Tmdb';
 import { useEffect } from 'react';
 import "./Row.css"
+import { FaChevronLeft } from "react-icons/fa6";
+import { FaChevronRight } from "react-icons/fa";
 
 const imgHost = "https://image.tmdb.org/t/p/original/";
 
@@ -48,8 +50,8 @@ function Row({ title, path, isLarge }) {
             <div className='row-container'>
                 <h2 className='row-header'>{title}</h2>
 
-                <div className="movie-row-left" onClick={handleftArrow}>u</div>
-                <div className="movie-row-right" onClick={handrighttArrow}>u</div>
+                <div className="movie-row-left" onClick={handleftArrow}><FaChevronLeft /></div>
+                <div className="movie-row-right" onClick={handrighttArrow}><FaChevronRight /></div>
 
                 <div className='row-cards row-scroll' style={{
                     marginLeft: scrollX

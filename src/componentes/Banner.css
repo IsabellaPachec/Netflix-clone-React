@@ -1,0 +1,102 @@
+.banner-container{
+    color: #ffffff;
+    object-fit: contain;
+    height: 100vh;
+}
+
+.gradient{
+    width: inherit !important;
+    height: inherit!important;
+    background: linear-gradient(to top, #111 2%, transparent 90%);
+}
+
+.vertical-gradient{
+    width: inherit !important;
+    height: inherit!important;
+    background: linear-gradient(to right, #111 10%, transparent 90%); 
+}
+
+.banner-content{
+    margin-left: 50px;
+    padding-top: 150px;
+    height: 190px;
+}
+
+.banner-title{
+    font-size: 50px;
+    font-weight: 800;
+    padding-bottom: 0.3rem;
+    max-width: 530px;
+    margin-left: 1%;
+}
+
+.banner-description, .description{
+    line-height: 1.3;
+    padding-top: -9rem;
+    font-size: 18px;
+    max-width: 580px;
+    height: 100px;
+    font-weight: 500;
+}
+
+.description{
+    color: #999;
+    margin-left: 3%;
+}
+
+.show-points, .show-year{
+    display: inline-block;
+    margin-left: 3%;
+    padding-bottom: 1%;
+    color :#46d369
+}
+
+.show-year{
+    color: #ffffff;
+}
+
+.banner-button-container{
+    display: flex;
+    flex-direction: row;
+    padding-top: 1rem;
+    margin-left: 0.5%;
+    
+}
+
+.banner-button, .banner-button-withe{
+    cursor: pointer;
+    color: #ffffff;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    border-radius: 4px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-left: 0.5rem;
+    margin-right: 1rem;
+    padding-top: 0.5rem;
+    background-color: rgba(51, 51, 51, 0.5);
+    padding-bottom: 0.5rem;
+    transition: all 5ms;
+}
+
+.banner-button-withe{
+    background-color: #ffffff;
+    color: #000;
+}
+
+
+.banner-button:hover{
+    color: #000;
+    background-color: #e6e6e6;
+    transition: all 5ms;
+   
+}
+.banner-button-withe:hover{
+    color: #ffffff;
+    background-color: rgba(51, 51, 51, 0.5);
+    transition: all 5ms;
+   
+}
+
+
